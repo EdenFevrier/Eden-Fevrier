@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Junior Pierre Eden Fevrier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">J.P. Eden Fevrier</a>
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            <nav id="primary-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" style="color: var(--accent-color);">About</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <h1>About Me</h1>
+        
+        <section>
+            <h2>Academic Background</h2>
+            <p>I am a fourth-year doctoral candidate in linguistics based in Amherst, NY. My research operates at the intersection of morphosemantics and syntax, with a dedicated focus on creole languages. Specifically, I analyze the derivational morphology of Haitian Creole to better understand complex structural dependencies and semantic representations.</p>
+        </section>
+
+        <section>
+            <h2>Professional Practice</h2>
+            <p>Beyond academia, I serve as the Founder and Chief Executive Officer of Garden of Languages and Services (GOLS), an enterprise offering professional translation, interpretation, localization, linguistic consulting, and language instruction. As a sworn translator, I ensure precise, contextually nuanced communication across critical linguistic borders.</p>
+            <p>I also direct LINGUISTICA LAB, an educational digital brand aimed at disseminating academic scholarship, linguistics research, and communication strategies to a broader audience.</p>
+        </section>
+        
+        <section>
+            <h2>Linguistic Profile</h2>
+            <p>I possess native/fluent proficiency in French and Haitian Creole. As a lifelong language learner and educator, I actively study and teach a diverse portfolio of languages, including Spanish, Catalan, Mandarin Chinese, Italian, and Portuguese.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Junior Pierre Eden Fevrier. All rights reserved. | <a href="contact.html">Social Links</a></p>
+        </div>
+    </footer>
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('#primary-nav');
+        toggle.addEventListener('click', () => { nav.classList.toggle('active'); });
+    </script>
+</body>
+</html>

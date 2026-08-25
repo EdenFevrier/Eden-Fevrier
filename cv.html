@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae | Junior Pierre Eden Fevrier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">J.P. Eden Fevrier</a>
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <nav id="primary-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="cv.html" style="color: var(--accent-color);">CV</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; margin-bottom: 2rem;">
+            <h1 style="margin-bottom: 0;">Curriculum Vitae</h1>
+            <a href="/files/[PLACEHOLDER_CV_FILENAME].pdf" class="btn primary" style="margin: 0;">Download Full CV (PDF)</a>
+        </div>
+        
+        <section>
+            <h2>Education</h2>
+            <div class="timeline-item">
+                <span class="timeline-date">[PLACEHOLDER: Year] – Present</span>
+                <strong>Ph.D. in Linguistics</strong>
+                <p>Amherst, NY<br>Dissertation: [PLACEHOLDER: Dissertation Title]</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">[PLACEHOLDER: Year] – [PLACEHOLDER: Year]</span>
+                <strong>[PLACEHOLDER: Master's Degree Title]</strong>
+                <p>[PLACEHOLDER: Institution Name]</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">[PLACEHOLDER: Year] – [PLACEHOLDER: Year]</span>
+                <strong>[PLACEHOLDER: Bachelor's Degree Title]</strong>
+                <p>[PLACEHOLDER: Institution Name]</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            <div class="timeline-item">
+                <span class="timeline-date">[PLACEHOLDER: Year] – Present</span>
+                <strong>Founder & Chief Executive Officer</strong>
+                <p>Garden of Languages and Services (GOLS)<br>Providing translation, interpretation, localization, linguistic consulting, and language instruction.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">[PLACEHOLDER: Year] – Present</span>
+                <strong>Sworn Translator</strong>
+                <p>[PLACEHOLDER: Jurisdiction/Organization]<br>Certified document translation specializing in French and Haitian Creole.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Junior Pierre Eden Fevrier. All rights reserved. | <a href="contact.html">Social Links</a></p>
+        </div>
+    </footer>
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('#primary-nav');
+        toggle.addEventListener('click', () => { nav.classList.toggle('active'); });
+    </script>
+</body>
+</html>

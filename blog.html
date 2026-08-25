@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Junior Pierre Eden Fevrier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">J.P. Eden Fevrier</a>
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <nav id="primary-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="blog.html" style="color: var(--accent-color);">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <h1>Blog & Updates</h1>
+        <p>Thoughts on linguistics, translation, teaching, and updates from LINGUISTICA LAB.</p>
+        
+        <div style="margin-top: 3rem;">
+            <article class="card" style="margin-bottom: 1.5rem;">
+                <div style="margin-bottom: 0.5rem;">
+                    <span class="timeline-date" style="display: inline-block; margin-right: 1rem;">August 2026</span>
+                    <span class="tag">Introduction</span>
+                </div>
+                <h2><a href="posts/first-post.html">Welcome to My Academic Portal</a></h2>
+                <p>Welcome to the digital home for my academic research, teaching portfolios, and linguistic ventures. In this space, I will be documenting my doctoral journey...</p>
+                <a href="posts/first-post.html" style="font-weight: 600; font-size: 0.9rem; display: inline-block; margin-top: 1rem;">Read Full Post &rarr;</a>
+            </article>
+
+            <!-- Placeholder for older posts -->
+            <article class="card" style="margin-bottom: 1.5rem; opacity: 0.6;">
+                <div style="margin-bottom: 0.5rem;">
+                    <span class="timeline-date" style="display: inline-block; margin-right: 1rem;">[PLACEHOLDER: Date]</span>
+                    <span class="tag">[PLACEHOLDER: Category]</span>
+                </div>
+                <h2><a href="#">[PLACEHOLDER: Post Title]</a></h2>
+                <p>[PLACEHOLDER: Excerpt text...]</p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Junior Pierre Eden Fevrier. All rights reserved. | <a href="contact.html">Social Links</a></p>
+        </div>
+    </footer>
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('#primary-nav');
+        toggle.addEventListener('click', () => { nav.classList.toggle('active'); });
+    </script>
+</body>
+</html>
